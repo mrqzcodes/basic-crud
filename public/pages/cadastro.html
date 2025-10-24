@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/components/header.css">
     <title>Cadastro</title>
 </head>
+
 <body>
     <header>
         <div class="compenents_header">
@@ -15,12 +17,32 @@
     </header>
     <main>
         <section>
-            <div class="input_username">
-                <label for="nome">Nome Completo:</label>
-                <input type="text" placeholder="Digite seu nome aqui">
-            </div>
+            <form action="">
+                <div class="input_username">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" placeholder="Digite seu nome aqui">
+                </div>
+                <div class="input_email">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="example@gmail.com">
+                </div>
+                <div class="input_cell_phone_numbe">
+                    <label for="cell_phone_number">Número de Celular:</label>
+                    <input type="tel" placeholder="(DDD)XXXXX-XXXX">
+                </div>
+                <div class="input_password">
+                    <label for="password">Senha:</label>
+                    <input type="password" placeholder="">
+                </div>
+                <div class="input_confirm_password">
+                    <label for="confirm_password">Confirmar Senha:</label>
+                    <input type="password" placeholder="">
+                </div>
+                <button>Cadastrar</button>
+            </form>
         </section>
     </main>
-    
+
 </body>
+
 </html>
