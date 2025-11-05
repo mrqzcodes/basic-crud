@@ -43,3 +43,18 @@ form {
    border-right: transparent;
    outline: none;
 }
+
+button{
+    width: inherit;
+    padding: 4px;
+    font-size: 0.95rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(97, 187, 97);
+    transition: 0.15s;
+}
